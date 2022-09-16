@@ -1,0 +1,2 @@
+User-agent: *
+Sitemap: https://guohuihui.gitee.io/guohui-blog/sitemap.xml
