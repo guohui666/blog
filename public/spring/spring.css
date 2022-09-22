@@ -2,7 +2,7 @@
 }
 
 .not-mobile{
-    display: flex;
+    display: flex!important;
     align-items: center;
 }
 .spring-qrcode{
@@ -11,4 +11,8 @@
 
 .spring-qrcode img{
     height: 80px;
+}
+
+.not-mobile .logo{
+    display: block;
 }
