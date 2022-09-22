@@ -7,8 +7,8 @@
     justify-content: space-between;
 }
 .spring-qrcode{
+    flex: 1;
     max-height: 100px;
-    margin-left: 30px;
 }
 
 .spring-qrcode img{
@@ -17,10 +17,11 @@
 }
 @media (min-width: 320px) and (max-width: 767px){
     .not-mobile{
-        display: none;
+        display: none!important;
     }
 }
 .not-mobile .logo{
     width: 320px;
     display: block;
+    margin-right: 30px;
 }
