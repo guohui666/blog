@@ -14,13 +14,25 @@
     display: block;
     max-height: 100px;
 }
-@media (min-width: 0) and (max-width: 767px){
-    .not-mobile{
-        display: none!important;
-    }
-}
+
 .not-mobile .logo{
     width: 320px;
     display: block;
     margin-right: 30px;
+}
+.spring-qrcode-mobile{
+    display: none;
+}
+
+@media (min-width: 0) and (max-width: 767px){
+    .not-mobile{
+        display: none!important;
+    }
+    .spring-qrcode-mobile{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        margin-bottom: 10px;
+    }
 }
