@@ -4,15 +4,16 @@
 .not-mobile{
     display: flex!important;
     align-items: center;
+    justify-content: space-between;
 }
 .spring-qrcode{
-    height: 90px;
+    height: 100px;
     margin-left: 30px;
 }
 
 .spring-qrcode img{
     display: block;
-    height: 90px;
+    height: 100px;
 }
 
 .not-mobile .logo{
