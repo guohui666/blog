@@ -1,2 +1,10 @@
 #main{
 }
+
+.spring-qrcode{
+    height: 80px;
+}
+
+.spring-qrcode.img{
+    height: 80px;
+}
