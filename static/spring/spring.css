@@ -1,10 +1,14 @@
 #main{
 }
 
+.not-mobile{
+    display: flex;
+    align-items: center;
+}
 .spring-qrcode{
     height: 80px;
 }
 
-.spring-qrcode.img{
+.spring-qrcode img{
     height: 80px;
 }
