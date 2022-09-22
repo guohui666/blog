@@ -10,7 +10,7 @@ window.onload = ()=>{
 
     qrcodeElement.setAttribute('class', 'spring-qrcode')
     qrcodeElement.innerHTML = `
-    <img src="https://guohuihui.gitee.io/guohui-blog/spring/qrcode-green.png" alt="">
+    <img src="https://guohuihui.gitee.io/guohui-blog/spring/qrcode-green.webp" alt="">
 `
     headerContainer.appendChild(qrcodeElement)
 }
