@@ -4,8 +4,7 @@ link.rel ='stylesheet';
 link.type = 'text/css';
 document.head.appendChild(link);
 
-window.onload(()=>{
-
+window.onload = ()=>{
     var qrcodeElement = document.createElement('div')
     var headerContainer = document.getElementsByClassName('not-mobile')[0]
 
@@ -14,4 +13,4 @@ window.onload(()=>{
     <img src="https://guohuihui.gitee.io/guohui-blog/spring/qrcode-green.png" alt="">
 `
     headerContainer.appendChild(qrcodeElement)
-})
+}
