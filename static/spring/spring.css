@@ -6,11 +6,12 @@
     align-items: center;
 }
 .spring-qrcode{
-    height: 60px;
+    height: 75px;
+    margin-left: 30px;
 }
 
 .spring-qrcode img{
-    height: 60px;
+    height: 75px;
 }
 
 .not-mobile .logo{
