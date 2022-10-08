@@ -40,11 +40,10 @@
     }
 }
 
-.social a:first-child{
-    color: #2693ff!important;
+#side-left a:first-child{
+    color: #2693ff;
 }
 
-.side-left.is-open .social a:first-child{
-    color: #ffffff!important;
+#side-left.is-open a:first-child{
+    color: #ffffff;
 }
-
