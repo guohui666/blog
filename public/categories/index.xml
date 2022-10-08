@@ -6,31 +6,13 @@
     <description>Recent content in Categories on Jane - A super concise theme for Hugo</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Mon, 04 Mar 2019 16:01:23 +0800</lastBuildDate><atom:link href="https://guohuihui.gitee.io/guohui-blog/categories/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>docs</title>
-      <link>https://guohuihui.gitee.io/guohui-blog/categories/docs/</link>
-      <pubDate>Mon, 04 Mar 2019 16:01:23 +0800</pubDate>
-      
-      <guid>https://guohuihui.gitee.io/guohui-blog/categories/docs/</guid>
-      <description></description>
-    </item>
-    
+    <lastBuildDate>Tue, 06 Mar 2018 16:01:23 +0800</lastBuildDate><atom:link href="https://guohuihui.gitee.io/guohui-blog/categories/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>index</title>
       <link>https://guohuihui.gitee.io/guohui-blog/categories/index/</link>
-      <pubDate>Mon, 04 Mar 2019 16:01:23 +0800</pubDate>
+      <pubDate>Tue, 06 Mar 2018 16:01:23 +0800</pubDate>
       
       <guid>https://guohuihui.gitee.io/guohui-blog/categories/index/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>math</title>
-      <link>https://guohuihui.gitee.io/guohui-blog/categories/math/</link>
-      <pubDate>Mon, 04 Mar 2019 16:01:23 +0800</pubDate>
-      
-      <guid>https://guohuihui.gitee.io/guohui-blog/categories/math/</guid>
       <description></description>
     </item>
     
@@ -40,6 +22,15 @@
       <pubDate>Tue, 06 Mar 2018 16:01:23 +0800</pubDate>
       
       <guid>https://guohuihui.gitee.io/guohui-blog/categories/shortcodes/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>docs</title>
+      <link>https://guohuihui.gitee.io/guohui-blog/categories/docs/</link>
+      <pubDate>Sun, 04 Mar 2018 16:01:23 +0800</pubDate>
+      
+      <guid>https://guohuihui.gitee.io/guohui-blog/categories/docs/</guid>
       <description></description>
     </item>
     
