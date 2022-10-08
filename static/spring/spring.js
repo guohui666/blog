@@ -24,6 +24,7 @@ window.onload = () => {
 
 
     var svgContainer = document.getElementsByClassName('social')[0]
+    var githubIcon = svgContainer.querySelector('a[href="https://github.com/spring-io/start.spring.io"]')
     var svgElement = document.createElement('a')
     svgElement.setAttribute('rel','noreferrer noopener',)
     svgElement.setAttribute('target', '_blank')
@@ -63,7 +64,7 @@ window.onload = () => {
 
      </span>
     `
-    svgContainer.appendChild(svgElement)
+    svgContainer.insertBefore(svgElement, githubIcon)
 
 }
 
