@@ -39,3 +39,12 @@
         width: 100%;
     }
 }
+
+.social a:first-child{
+    color: #2693ff;
+}
+
+.side-left.is-open .social a:first-child{
+    color: #ffffff;
+}
+
