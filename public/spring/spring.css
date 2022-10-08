@@ -41,10 +41,10 @@
 }
 
 .social a:first-child{
-    color: #2693ff;
+    color: #2693ff!important;
 }
 
 .side-left.is-open .social a:first-child{
-    color: #ffffff;
+    color: #ffffff!important;
 }
 
