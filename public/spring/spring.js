@@ -25,8 +25,7 @@ window.onload = () => {
 
     var svgContainer = document.getElementsByClassName('social')[0]
     var svgElement = document.createElement('a')
-    svgElement.setAttribute('rel noreferrer noopener',)
-    svgElement.setAttribute('target', '_blank')
+    svgElement.setAttribute('rel','noreferrer noopener',)
     svgElement.setAttribute('target', '_blank')
     svgElement.setAttribute('href', 'https://www.springboot.io')
     svgElement.innerHTML = `
