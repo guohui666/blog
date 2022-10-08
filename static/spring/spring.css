@@ -42,6 +42,8 @@
 
 #side-left a:first-child{
     color: #2693ff;
+    animation: shake 0.5s infinite;
+    animation-fill-mode: both;
 }
 
 #side-left a:first-child:hover{
@@ -51,3 +53,16 @@
 #side-left.is-open a:first-child{
     color: #ffffff;
 }
+
+@keyframes shake {
+    0% {
+       transform: translate(0, 0px);
+    }
+    50% {
+        transform: translate(-0.1rem, 0.1rem);
+    }
+    100% {
+        transform: translate(0, 0px);
+    }
+}
+
