@@ -44,6 +44,10 @@
     color: #2693ff;
 }
 
+#side-left a:first-child:hover{
+    color: #6db33f;
+}
+
 #side-left.is-open a:first-child{
     color: #ffffff;
 }
