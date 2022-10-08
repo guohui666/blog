@@ -42,7 +42,7 @@
 
 #side-left a:first-child{
     color: #2693ff;
-    animation: shake 0.1s infinite;
+    animation: shake 0.5s infinite;
     animation-fill-mode: both;
 }
 
@@ -58,8 +58,17 @@
     0% {
        transform: translate(0, 0px);
     }
-    50% {
+    30% {
         transform: translate(0, 0.1rem);
+    }
+    50% {
+        transform: translate(0, 0);
+    }
+    60% {
+        transform: translate(0, 0.1rem);
+    }
+    80% {
+        transform: translate(0, 0);
     }
     100% {
         transform: translate(0, 0px);
