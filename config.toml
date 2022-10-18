@@ -2,7 +2,7 @@
 # Site Settings
 
 baseURL = "https://guohuihui.gitee.io/guohui-blog/"
-title = "Hugo Theme MemE"
+title = "Henry G"
 languageCode = "en"
 hasCJKLanguage = false
 # Copyright information (Markdown supported)
@@ -55,6 +55,7 @@ uglyURLs = false
 [taxonomies]
     category = "categories"
     tag = "tags"
+    posts = "posts"
 
 # Modified date
 [frontmatter]
@@ -98,17 +99,17 @@ uglyURLs = false
 # Author’s information
 [author]
     # Name
-    name = "reuixiy"
+    name = "Henry G"
     # Email
-    email = "reuixiy@gmail.com"
+#    email = "reuixiy@gmail.com"
     # Motto or introduction
-    motto = "Viva La Vida"
+#    motto = "Viva La Vida"
     # Avatar
-    avatar = "/icons/apple-touch-icon.png"
+#    avatar = "/icons/apple-touch-icon.png"
     # Personal website, default: baseURL
-    website = "https://io-oi.me/"
+#    website = "https://io-oi.me/"
     # Twitter
-    twitter = "reuixiy"
+#    twitter = "reuixiy"
 
 # Related content
 [related]
@@ -228,7 +229,7 @@ uglyURLs = false
         pre = "internal"
         post = "tags"
     [[menu.main]]
-        pageref = "/about/about"
+        pageref = "/about"
         name = "About"
         weight = 5
         pre = "internal"
@@ -1057,7 +1058,7 @@ uglyURLs = false
     ######################################
     ## Drop Cap
 
-    enableDropCap = true
+    enableDropCap = false
     # Note: *global settings*
     #       `dropCap` in post’s Front Matter
     #       has a higher priority than here
@@ -1166,10 +1167,10 @@ uglyURLs = false
 
     displayShareOnText = false
 
-    shareOnTwitter = true
-    shareOnFacebook = true
-    shareOnLinkedIn = true
-    shareOnTelegram = true
+    shareOnTwitter = false
+    shareOnFacebook = false
+    shareOnLinkedIn = false
+    shareOnTelegram = false
     shareOnWeibo = true
     shareOnDouban = true
     shareOnQQ = true
@@ -1291,7 +1292,7 @@ uglyURLs = false
     #       https://busuanzi.ibruce.info/
 
     # Socials
-    enableSocials = true
+    enableSocials = false
     # Note: see data/Socials.toml
 
 
@@ -1314,7 +1315,7 @@ uglyURLs = false
     enableHighlight = true
 
     enableOverflowY = true
-    maxHeight = 20
+    maxHeight = 60
     # Unit: em
 
     enableCopy = true
