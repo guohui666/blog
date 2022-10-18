@@ -11,7 +11,8 @@ comment: false
 mathjax: false
 
 ---
-
+记录一些自己用到的类型体操，不定时更新
+<!--more-->
 ### 提取`Promise`的返回类型
 
 ```typescript
