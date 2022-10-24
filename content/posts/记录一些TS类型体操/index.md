@@ -1,7 +1,7 @@
 ---
 title: "记录一些TS类型体操"
-tags: [ts, typescript, ts类型体操, useHttp, vue-request, vue3]
-categories: [typescript, 类型体操]
+tags: [typescript, ts类型体操, useHttp, vue-request, vue3]
+categories: [typescript]
 description: 记录一些自己用到的类型体操，不定时更新
 weight: 50
 date: 2022-10-18T09:46:52+08:00
@@ -11,8 +11,6 @@ comment: false
 mathjax: false
 
 ---
-记录一些自己用到的类型体操，不定时更新
-<!--more-->
 ### 提取`Promise`的返回类型
 
 ```typescript
