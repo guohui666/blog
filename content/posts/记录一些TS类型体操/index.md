@@ -17,7 +17,7 @@ mathjax: false
 export type PromiseReturnType<T extends (...args: any) => any> =
     ReturnType<T> extends Promise<infer R> ? R : ReturnType<T>
 ```
-
+<!--more-->
 ```typescript
 type PromiseData = ()=>Promise<{
   a: number
