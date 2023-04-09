@@ -1,7 +1,7 @@
 ##########################################
 # Site Settings
 
-baseURL = "https://guohuihui.gitee.io/guohui-blog/"
+baseURL = "https://blog.nodeqd.com"
 title = "Henry G"
 languageCode = "en"
 hasCJKLanguage = false
