@@ -27,7 +27,7 @@ window.onload = () => {
     var githubIcon = svgContainer.querySelector('a[href="https://github.com/spring-io/start.spring.io"]')
     var svgElement = document.createElement('a')
     svgElement.setAttribute('target', '_blank')
-    svgElement.setAttribute('href', 'https://www.springboot.io')
+    svgElement.setAttribute('href', 'https://springboot.io')
     svgElement.innerHTML = `
     <span class="a-content" tabindex="-1">
      <svg t="1665212884584" className="icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg"
