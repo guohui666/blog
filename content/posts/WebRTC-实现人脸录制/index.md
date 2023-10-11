@@ -4,7 +4,7 @@ tags: [WebRTC]
 categories: [typescript]
 description: WebRTC-实现人脸录制
 weight: 50
-draft: true
+#draft: true
 date: 2022-10-18T09:46:52+08:00
 # lastmod: 2017-08-28T21:41:52+08:00
 # you can close something for this content if you open it in config.toml.
@@ -368,3 +368,9 @@ const reset = () => {
   onPlay()
 }
 ```
+
+#### 感谢聆听
+
+手机扫码体验
+
+![webrtc-qrcode.png](webrtc-qrcode.png)
