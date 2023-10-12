@@ -201,7 +201,7 @@ const getSupportedMimeTypes = () => {
   return supportedTypes
 }
 ```
-通过组合且通过检测得到的MimeTypes样例如下，不同浏览器及设备可能会有差异。
+通过检测得到的MimeTypes样例如下，不同浏览器及设备可能会有差异。
 
 ![variations.png](variations.png)
 
