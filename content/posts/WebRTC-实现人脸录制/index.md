@@ -158,7 +158,7 @@ load(() => {
 
 - 检测当前设备、浏览器支持录制的视频格式和编码
 
-一些浏览器在使用`MediaRecorder`的时候如果不指定`mimeType`，会出现录制报错等奇葩情况，检测常用的视频编码，确保兼容性。
+一些浏览器在使用`MediaRecorder`的时候如果指定的`mimeType`不支持，会出现录制报错、保存后的视频黑屏等奇葩情况，检测常用的视频编码，确保兼容性。
 
 ```javascript
 /**
@@ -369,8 +369,80 @@ const reset = () => {
 }
 ```
 
-#### 感谢聆听
+#### Input上传方案
 
-手机扫码体验
+```vue
+<script setup lang="ts">
+import { ref } from 'vue'
+const emit = defineEmits(['finished'])
+const videoFile = ref<HTMLInputElement>()
+const videoBlob = ref()
+const reset=()=> {
+  videoFile!.value!.value = ''
+  videoBlob.value = null
+}
+const startRecorder=()=> {
+  videoFile.value?.click()
+}
+const changeVideo=(event)=> {
+  if (!event.target.files || !event.target.files[0]) {
+    return
+  }
+  const blob = event.target.files[0]
+  console.info(blob.size)
+  videoBlob.value = blob
+  emit('finished',{
+    blob,
+    reset,
+    from: 'videoByInput'
+  })
+}
+</script>
+
+<template>
+  <div class="video-verify-container-input">
+    <div class="tip-container">
+      <div class="choose-title">
+        请按如下要求
+        <br />
+        录制一段
+        <span>3-5秒</span>
+        的视频
+      </div>
+      <div class="tip-box-input">
+          <div class="tip-message">面孔处于取景框内</div>
+          <div class="tip-message">请取下帽子和眼镜</div>
+          <div class="tip-message">拍摄光线充足</div>
+      </div>
+    </div>
+    <div class="action-box">
+      <div class="btn" v-if="!videoBlob" @click="startRecorder">
+        开始录制
+      </div>
+      <div class="btn" v-else>
+        <van-loading size="18" type="spinner">识别中</van-loading>
+      </div>
+    </div>
+    <!--  活体视频录制 -->
+    <input
+      type="file"
+      accept="video/*"
+      capture="user"
+      ref="videoFile"
+      @change="changeVideo"
+      class="file-input"
+      hidden
+    />
+  </div>
+</template>
+
+<style scoped lang="scss">
+@import "../faceRecognition";
+</style>
+
+```
+input拍摄视频上传这里就不过多赘述了
+
+### 手机扫码体验
 
 ![webrtc-qrcode.png](webrtc-qrcode.png)
