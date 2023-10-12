@@ -5,7 +5,7 @@ categories: [typescript]
 description: WebRTC-实现人脸录制
 weight: 50
 #draft: true
-date: 2022-10-18T09:46:52+08:00
+date: 2023-10-12T10:44:52+08:00
 # lastmod: 2017-08-28T21:41:52+08:00
 # you can close something for this content if you open it in config.toml.
 comment: false
@@ -13,7 +13,7 @@ mathjax: false
 
 ---
 ### 什么是 WebRTC ？
-
+ 
 MDN对WebRTC的介绍如下：
 
 >WebRTC（Web Real-Time Communications）是一项实时通讯技术，它允许网络应用或者站点，在不借助中间媒介的情况下，建立浏览器之间点对点（Peer-to-Peer）的连接，实现视频流和（或）音频流或者其他任意数据的传输。WebRTC 包含的这些标准使用户在无需安装任何插件或者第三方的软件的情况下，创建点对点（Peer-to-Peer）的数据分享和电话会议成为可能。
